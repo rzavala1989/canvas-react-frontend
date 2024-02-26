@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    user-select: none;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive !important;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.react-colorful__saturation-pointer {
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 0 !important;
+}
+
+.react-colorful__hue {
+    height: 20px !important;
+    margin-top: 0.5rem;
+    border-radius: 0 !important;
+}
+
+.react-colorful__pointer .react-colorful__hue-pointer {
+    width: 20px;
+    height: 20px;
+    border-radius: 0 !important;
+}
+
+
+.react-colorful__hue .react-colorful__hue-pointer {
+    width: 20px;
+    height: 20px;
+    border-radius: 0 !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.react-player video {
+    max-height: 740px;
+}
+
+.loading-spinner {
+    color: #4fd1c5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
